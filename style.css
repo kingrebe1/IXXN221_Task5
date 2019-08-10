@@ -49,9 +49,12 @@ h3 {
 	font-weight: 500;
 	font-style: normal;
 	font-size: 30px;
-	padding-top: 5%;
 	margin-top: 0;
 	margin-bottom: 0;
+}
+
+#SearchTitle {
+	padding-top: 5%;
 }
 
 h5 {
@@ -60,6 +63,14 @@ h5 {
 	font-style: normal;
 	font-size: 20px;
 	margin-bottom: 0;
+}
+
+h6 {
+	font-family: canada-type-gibson, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 18px;
+	margin-bottom: 0;	
 }
 
 li {
@@ -100,6 +111,7 @@ ul {
 
 #filterheading {
 	margin-left: 1.5%;
+	padding-top: 5%;
 }
 
 label {
@@ -107,4 +119,47 @@ label {
 	font-weight: 300;
 	font-style: normal;
 	font-size: 16px;
+}
+
+#map {
+	margin-left: 1.5%;
+	margin-right: 3%;
+}
+
+#flexbox_container {
+	display: flex;
+	justify-content: space-between;
+	}
+
+#filter_container {
+	width: 25%;
+}
+
+#map {
+	max-width: 25%;
+}
+
+#restaurants {
+	margin-left: 1.5%;
+	max-width: 50%;
+
+}
+.scroll {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.option {
+	max-width: 30%;
+	margin: 1.5%;
+}
+.option_photo {
+	max-width: 100%;
+}
+
+.key_info {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0;
+	padding-top: 0;
 }

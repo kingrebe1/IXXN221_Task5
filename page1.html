@@ -9,137 +9,177 @@
 
 <body>
 	<div>
-		<img id="logo" src="images/dummy_image.png" alt="plain square">
+		<a href="index.html"> <img id="logo" src="images/dummy_image.png" alt="plain square"></a>
 	</div>
-	<div id="filter_container">
-		<h3 id=filterheading>Filters</h3>
-		<div class="filtering">
-			<h5>Dietary</h5>
-			<ul>
-				<li>
-					<label class="container">
-					  <input type="checkbox" checked="checked">
-					  <span class="checkmark"></span>
-					  Gluten Free 
-					</label>
-				</li>
-				<li>
-					<label class="container">
-					  <input type="checkbox" checked="checked">
-					  <span class="checkmark"></span>
-					  Nut Free 
-					</label>
-				</li>
-				<li>
-					<label class="container">
-					  <input type="checkbox" checked="checked">
-					  <span class="checkmark"></span>
-					  Serves Dairy
-					</label>
-				</li>
-				<li>
-					<label class="container">
-					  <input type="checkbox" checked="checked">
-					  <span class="checkmark"></span>
-					  Serves Egg
-					</label>
-				</li>
-				<li>
-					<label class="container">
-					  <input type="checkbox" checked="checked">
-					  <span class="checkmark"></span>
-					  Serves Meat
-					</label>
-				</li>
-			</ul>
+	<div id="flexbox_container">
+		<div id="filter_container">
+			<h3 id=filterheading>Filters</h3>
+			<div class="filtering">
+				<h5>Dietary</h5>
+				<ul>
+					<li>
+						<label class="container">
+						  <input type="checkbox" checked="checked">
+						  <span class="checkmark"></span>
+						  Gluten Free 
+						</label>
+					</li>
+					<li>
+						<label class="container">
+						  <input type="checkbox" checked="checked">
+						  <span class="checkmark"></span>
+						  Nut Free 
+						</label>
+					</li>
+					<li>
+						<label class="container">
+						  <input type="checkbox" checked="checked">
+						  <span class="checkmark"></span>
+						  Serves Dairy
+						</label>
+					</li>
+					<li>
+						<label class="container">
+						  <input type="checkbox" checked="checked">
+						  <span class="checkmark"></span>
+						  Serves Egg
+						</label>
+					</li>
+					<li>
+						<label class="container">
+						  <input type="checkbox" checked="checked">
+						  <span class="checkmark"></span>
+						  Serves Meat
+						</label>
+					</li>
+				</ul>
+			</div>
+
+			<div class="filtering">
+				<h5>Time of Day</h5>
+				<ul>
+					<li>
+						<label class="container">
+						  <input type="checkbox" checked="checked">
+						  <span class="checkmark"></span>
+						  Breakfast
+						</label>
+					</li>
+					<li>
+						<label class="container">
+						  <input type="checkbox" checked="checked">
+						  <span class="checkmark"></span>
+						  Brunch
+						</label>
+					</li>
+					<li>
+						<label class="container">
+						  <input type="checkbox" checked="checked">
+						  <span class="checkmark"></span>
+						  Lunch
+						</label>
+					</li>
+					<li>
+						<label class="container">
+						  <input type="checkbox" checked="checked">
+						  <span class="checkmark"></span>
+						  Dinner
+						</label>
+					</li>
+					<li>
+						<label class="container">
+						  <input type="checkbox" checked="checked">
+						  <span class="checkmark"></span>
+						  Open Late
+						</label>
+					</li>
+				</ul>
+			</div>
+
+			<div class="filtering">
+				<h5>Price Range</h5>
+				<ul>
+					<li>
+						<label class="container">
+						  <input type="checkbox" checked="checked">
+						  <span class="checkmark"></span>
+						  $
+						</label>
+					</li>
+					<li>
+						<label class="container">
+						  <input type="checkbox" checked="checked">
+						  <span class="checkmark"></span>
+						  $$
+						</label>
+					</li>
+					<li>
+						<label class="container">
+						  <input type="checkbox" checked="checked">
+						  <span class="checkmark"></span>
+						  $$$
+						</label>
+					</li>
+					<li>
+						<label class="container">
+						  <input type="checkbox" checked="checked">
+						  <span class="checkmark"></span>
+						  $$$$
+						</label>
+					</li>
+				</ul>
+			</div>
+
+			<div class="filtering">
+				<h5>Takes Bookings</h5>
+				<ul>
+					<li>
+						<label class="container">
+						  <input type="checkbox" checked="checked">
+						  <span class="checkmark"></span>
+						  Yes
+						</label>
+					</li>
+				</ul>
+			</div>
 		</div>
 
-		<div class="filtering">
-			<h5>Time of Day</h5>
-			<ul>
-				<li>
-					<label class="container">
-					  <input type="checkbox" checked="checked">
-					  <span class="checkmark"></span>
-					  Breakfast
-					</label>
-				</li>
-				<li>
-					<label class="container">
-					  <input type="checkbox" checked="checked">
-					  <span class="checkmark"></span>
-					  Brunch
-					</label>
-				</li>
-				<li>
-					<label class="container">
-					  <input type="checkbox" checked="checked">
-					  <span class="checkmark"></span>
-					  Lunch
-					</label>
-				</li>
-				<li>
-					<label class="container">
-					  <input type="checkbox" checked="checked">
-					  <span class="checkmark"></span>
-					  Dinner
-					</label>
-				</li>
-				<li>
-					<label class="container">
-					  <input type="checkbox" checked="checked">
-					  <span class="checkmark"></span>
-					  Open Late
-					</label>
-				</li>
-			</ul>
+		<div id="restaurants">
+			<h3>Results</h3>
+			<div class="scroll">
+				<div class="option">
+					<img class="option_photo" src="images/cafe_0.jpg" alt="Image of small coffee shop counter. Cabinet has pastries and sweets." <br>
+					<h6>Cafe Name</h6>
+					<div class="key_info">
+						<p>rating</p>
+						<p>0.00km</p>
+						<p>$$</p>
+					</div>
+				</div>
+				<div class="option">
+					<img class="option_photo" src="images/cafe_0.jpg" alt="Image of small coffee shop counter. Cabinet has pastries and sweets." <br>
+					<h6>Cafe Name</h6>
+					<div class="key_info">
+						<p>rating</p>
+						<p>0.00km</p>
+						<p>$$</p>
+					</div>
+				</div>
+				<div class="option">
+					<img class="option_photo" src="images/cafe_0.jpg" alt="Image of small coffee shop counter. Cabinet has pastries and sweets." <br>
+					<h6>Cafe Name</h6>
+					<div class="key_info">
+						<p>rating</p>
+						<p>0.00km</p>
+						<p>$$</p>
+					</div>
+				</div>
+			</div>
 		</div>
 
-		<div class="filtering">
-			<h5>Price Range</h5>
-			<ul>
-				<li>
-					<label class="container">
-					  <input type="checkbox" checked="checked">
-					  <span class="checkmark"></span>
-					  $
-					</label>
-				</li>
-				<li>
-					<label class="container">
-					  <input type="checkbox" checked="checked">
-					  <span class="checkmark"></span>
-					  $$
-					</label>
-				</li>
-				<li>
-					<label class="container">
-					  <input type="checkbox" checked="checked">
-					  <span class="checkmark"></span>
-					  $$$
-					</label>
-				</li>
-				<li>
-					<label class="container">
-					  <input type="checkbox" checked="checked">
-					  <span class="checkmark"></span>
-					  $$$$
-					</label>
-				</li>
-			</ul>
-		</div>
-
-		<div class="filtering">
-			<h5>Takes Bookings</h5>
-			<ul>
-				<li>
-					<label class="container">
-					  <input type="checkbox" checked="checked">
-					  <span class="checkmark"></span>
-					  Yes
-					</label>
-				</li>
-			</ul>
+		<div id="map">
+			<h4>Map</h4>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7654.683580640815!2d174.77715511417574!3d-41.2942327227464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1565472392621!5m2!1sen!2snz" width="350" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
 	</div>
 </body>
