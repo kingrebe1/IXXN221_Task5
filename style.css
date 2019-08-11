@@ -225,6 +225,50 @@ nav {
 
 #restaurant_info {
 	max-width: 80%;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#contact {
+	margin-left: 3%;
+	margin-right: 3%;
+	width: 50%;
+}
+
+#map_2 {
+	margin-left: 3%;
+	margin-right: 3%;	
+	width:50%;
+}
+
+#review_img {
+	max-width: 10%;
+}
+
+#reviews {
+	margin-left: 10%;
+	margin-top: 3%;
+	width: 80%;
+	background-color: white;
+	margin-bottom: 3%;
+}
+
+.review_template {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 1.5%;
+	margin-left: 1.5%;
+	padding-bottom: 3%;
+}
+
+#review_content {
+	margin-left: 1.5%;
+}
+
+#review_heading {
+	margin-left: 1.5%;
+	padding-top: 1.5%;
 }
