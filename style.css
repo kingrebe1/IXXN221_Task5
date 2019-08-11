@@ -253,6 +253,8 @@ nav {
 	width: 80%;
 	background-color: white;
 	margin-bottom: 3%;
+	max-height: 500px;
+	overflow-y: auto;
 }
 
 .review_template {
@@ -261,7 +263,8 @@ nav {
 	justify-content: flex-start;
 	margin-top: 1.5%;
 	margin-left: 1.5%;
-	padding-bottom: 3%;
+	padding-bottom: 1.5%;
+	flex-wrap: wrap;
 }
 
 #review_content {
